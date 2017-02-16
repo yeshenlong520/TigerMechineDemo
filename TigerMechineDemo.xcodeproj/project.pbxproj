@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		077E4C121E557FA200B3C519 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 077E4C111E557FA200B3C519 /* main.m */; };
+		077E4C151E557FA200B3C519 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 077E4C141E557FA200B3C519 /* AppDelegate.m */; };
+		077E4C181E557FA200B3C519 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 077E4C171E557FA200B3C519 /* ViewController.m */; };
+		077E4C1B1E557FA200B3C519 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 077E4C191E557FA200B3C519 /* Main.storyboard */; };
+		077E4C1D1E557FA200B3C519 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 077E4C1C1E557FA200B3C519 /* Assets.xcassets */; };
+		077E4C201E557FA200B3C519 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 077E4C1E1E557FA200B3C519 /* LaunchScreen.storyboard */; };
+		077E4C2B1E557FA200B3C519 /* TigerMechineDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 077E4C2A1E557FA200B3C519 /* TigerMechineDemoTests.m */; };
+		077E4C361E557FA200B3C519 /* TigerMechineDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 077E4C351E557FA200B3C519 /* TigerMechineDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		077E4C271E557FA200B3C519 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 077E4C051E557FA200B3C519 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 077E4C0C1E557FA200B3C519;
+			remoteInfo = TigerMechineDemo;
+		};
+		077E4C321E557FA200B3C519 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 077E4C051E557FA200B3C519 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 077E4C0C1E557FA200B3C519;
+			remoteInfo = TigerMechineDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		077E4C0D1E557FA200B3C519 /* TigerMechineDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TigerMechineDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		077E4C111E557FA200B3C519 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		077E4C131E557FA200B3C519 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		077E4C141E557FA200B3C519 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		077E4C161E557FA200B3C519 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		077E4C171E557FA200B3C519 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		077E4C1A1E557FA200B3C519 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		077E4C1C1E557FA200B3C519 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		077E4C1F1E557FA200B3C519 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		077E4C211E557FA200B3C519 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		077E4C261E557FA200B3C519 /* TigerMechineDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TigerMechineDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		077E4C2A1E557FA200B3C519 /* TigerMechineDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TigerMechineDemoTests.m; sourceTree = "<group>"; };
+		077E4C2C1E557FA200B3C519 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		077E4C311E557FA200B3C519 /* TigerMechineDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TigerMechineDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		077E4C351E557FA200B3C519 /* TigerMechineDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TigerMechineDemoUITests.m; sourceTree = "<group>"; };
+		077E4C371E557FA200B3C519 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		077E4C0A1E557FA200B3C519 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		077E4C231E557FA200B3C519 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		077E4C2E1E557FA200B3C519 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		077E4C041E557FA200B3C519 = {
+			isa = PBXGroup;
+			children = (
+				077E4C0F1E557FA200B3C519 /* TigerMechineDemo */,
+				077E4C291E557FA200B3C519 /* TigerMechineDemoTests */,
+				077E4C341E557FA200B3C519 /* TigerMechineDemoUITests */,
+				077E4C0E1E557FA200B3C519 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		077E4C0E1E557FA200B3C519 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				077E4C0D1E557FA200B3C519 /* TigerMechineDemo.app */,
+				077E4C261E557FA200B3C519 /* TigerMechineDemoTests.xctest */,
+				077E4C311E557FA200B3C519 /* TigerMechineDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		077E4C0F1E557FA200B3C519 /* TigerMechineDemo */ = {
+			isa = PBXGroup;
+			children = (
+				077E4C131E557FA200B3C519 /* AppDelegate.h */,
+				077E4C141E557FA200B3C519 /* AppDelegate.m */,
+				077E4C161E557FA200B3C519 /* ViewController.h */,
+				077E4C171E557FA200B3C519 /* ViewController.m */,
+				077E4C191E557FA200B3C519 /* Main.storyboard */,
+				077E4C1C1E557FA200B3C519 /* Assets.xcassets */,
+				077E4C1E1E557FA200B3C519 /* LaunchScreen.storyboard */,
+				077E4C211E557FA200B3C519 /* Info.plist */,
+				077E4C101E557FA200B3C519 /* Supporting Files */,
+			);
+			path = TigerMechineDemo;
+			sourceTree = "<group>";
+		};
+		077E4C101E557FA200B3C519 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				077E4C111E557FA200B3C519 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		077E4C291E557FA200B3C519 /* TigerMechineDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				077E4C2A1E557FA200B3C519 /* TigerMechineDemoTests.m */,
+				077E4C2C1E557FA200B3C519 /* Info.plist */,
+			);
+			path = TigerMechineDemoTests;
+			sourceTree = "<group>";
+		};
+		077E4C341E557FA200B3C519 /* TigerMechineDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				077E4C351E557FA200B3C519 /* TigerMechineDemoUITests.m */,
+				077E4C371E557FA200B3C519 /* Info.plist */,
+			);
+			path = TigerMechineDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		077E4C0C1E557FA200B3C519 /* TigerMechineDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 077E4C3A1E557FA200B3C519 /* Build configuration list for PBXNativeTarget "TigerMechineDemo" */;
+			buildPhases = (
+				077E4C091E557FA200B3C519 /* Sources */,
+				077E4C0A1E557FA200B3C519 /* Frameworks */,
+				077E4C0B1E557FA200B3C519 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TigerMechineDemo;
+			productName = TigerMechineDemo;
+			productReference = 077E4C0D1E557FA200B3C519 /* TigerMechineDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		077E4C251E557FA200B3C519 /* TigerMechineDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 077E4C3D1E557FA200B3C519 /* Build configuration list for PBXNativeTarget "TigerMechineDemoTests" */;
+			buildPhases = (
+				077E4C221E557FA200B3C519 /* Sources */,
+				077E4C231E557FA200B3C519 /* Frameworks */,
+				077E4C241E557FA200B3C519 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				077E4C281E557FA200B3C519 /* PBXTargetDependency */,
+			);
+			name = TigerMechineDemoTests;
+			productName = TigerMechineDemoTests;
+			productReference = 077E4C261E557FA200B3C519 /* TigerMechineDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		077E4C301E557FA200B3C519 /* TigerMechineDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 077E4C401E557FA200B3C519 /* Build configuration list for PBXNativeTarget "TigerMechineDemoUITests" */;
+			buildPhases = (
+				077E4C2D1E557FA200B3C519 /* Sources */,
+				077E4C2E1E557FA200B3C519 /* Frameworks */,
+				077E4C2F1E557FA200B3C519 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				077E4C331E557FA200B3C519 /* PBXTargetDependency */,
+			);
+			name = TigerMechineDemoUITests;
+			productName = TigerMechineDemoUITests;
+			productReference = 077E4C311E557FA200B3C519 /* TigerMechineDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		077E4C051E557FA200B3C519 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = jctmac;
+				TargetAttributes = {
+					077E4C0C1E557FA200B3C519 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					077E4C251E557FA200B3C519 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 077E4C0C1E557FA200B3C519;
+					};
+					077E4C301E557FA200B3C519 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 077E4C0C1E557FA200B3C519;
+					};
+				};
+			};
+			buildConfigurationList = 077E4C081E557FA200B3C519 /* Build configuration list for PBXProject "TigerMechineDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 077E4C041E557FA200B3C519;
+			productRefGroup = 077E4C0E1E557FA200B3C519 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				077E4C0C1E557FA200B3C519 /* TigerMechineDemo */,
+				077E4C251E557FA200B3C519 /* TigerMechineDemoTests */,
+				077E4C301E557FA200B3C519 /* TigerMechineDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		077E4C0B1E557FA200B3C519 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				077E4C201E557FA200B3C519 /* LaunchScreen.storyboard in Resources */,
+				077E4C1D1E557FA200B3C519 /* Assets.xcassets in Resources */,
+				077E4C1B1E557FA200B3C519 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		077E4C241E557FA200B3C519 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		077E4C2F1E557FA200B3C519 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		077E4C091E557FA200B3C519 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				077E4C181E557FA200B3C519 /* ViewController.m in Sources */,
+				077E4C151E557FA200B3C519 /* AppDelegate.m in Sources */,
+				077E4C121E557FA200B3C519 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		077E4C221E557FA200B3C519 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				077E4C2B1E557FA200B3C519 /* TigerMechineDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		077E4C2D1E557FA200B3C519 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				077E4C361E557FA200B3C519 /* TigerMechineDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		077E4C281E557FA200B3C519 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 077E4C0C1E557FA200B3C519 /* TigerMechineDemo */;
+			targetProxy = 077E4C271E557FA200B3C519 /* PBXContainerItemProxy */;
+		};
+		077E4C331E557FA200B3C519 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 077E4C0C1E557FA200B3C519 /* TigerMechineDemo */;
+			targetProxy = 077E4C321E557FA200B3C519 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		077E4C191E557FA200B3C519 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				077E4C1A1E557FA200B3C519 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		077E4C1E1E557FA200B3C519 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				077E4C1F1E557FA200B3C519 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		077E4C381E557FA200B3C519 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		077E4C391E557FA200B3C519 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		077E4C3B1E557FA200B3C519 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TigerMechineDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yeshenlong.TigerMechineDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		077E4C3C1E557FA200B3C519 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TigerMechineDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yeshenlong.TigerMechineDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		077E4C3E1E557FA200B3C519 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TigerMechineDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yeshenlong.TigerMechineDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TigerMechineDemo.app/TigerMechineDemo";
+			};
+			name = Debug;
+		};
+		077E4C3F1E557FA200B3C519 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TigerMechineDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yeshenlong.TigerMechineDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TigerMechineDemo.app/TigerMechineDemo";
+			};
+			name = Release;
+		};
+		077E4C411E557FA200B3C519 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TigerMechineDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yeshenlong.TigerMechineDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TigerMechineDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		077E4C421E557FA200B3C519 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TigerMechineDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yeshenlong.TigerMechineDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TigerMechineDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		077E4C081E557FA200B3C519 /* Build configuration list for PBXProject "TigerMechineDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				077E4C381E557FA200B3C519 /* Debug */,
+				077E4C391E557FA200B3C519 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		077E4C3A1E557FA200B3C519 /* Build configuration list for PBXNativeTarget "TigerMechineDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				077E4C3B1E557FA200B3C519 /* Debug */,
+				077E4C3C1E557FA200B3C519 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		077E4C3D1E557FA200B3C519 /* Build configuration list for PBXNativeTarget "TigerMechineDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				077E4C3E1E557FA200B3C519 /* Debug */,
+				077E4C3F1E557FA200B3C519 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		077E4C401E557FA200B3C519 /* Build configuration list for PBXNativeTarget "TigerMechineDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				077E4C411E557FA200B3C519 /* Debug */,
+				077E4C421E557FA200B3C519 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 077E4C051E557FA200B3C519 /* Project object */;
+}
